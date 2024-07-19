@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header, .hero, .info,
+.quote-container, .action,
+.footer{
+    padding: 0 200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header,
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header-logo{
+    display: flex;
+    font-size: 24px;
+}
+
+.hero{
+    display: flex;
+    
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up,
+.cta{
+    background-color: #3882f6;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+ul{
+    list-style: none;
+    gap: 15px;
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 24px;
+}
