@@ -29,9 +29,13 @@ body {
 .hero{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    padding-top: 100px;
-    height: 200px;
+    padding: 30px 100px;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
 }
 
 .hero-main{
@@ -43,6 +47,14 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     align-self: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
 }
 
 .sign-up,
