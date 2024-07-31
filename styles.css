@@ -51,11 +51,15 @@ body {
 .info{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 0;
 }
 
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 .sign-up,
 .cta{
     background-color: #3882f6;
