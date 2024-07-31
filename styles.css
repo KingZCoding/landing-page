@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+    width: 100vw;
     display: flex;
     flex-direction: column;
 }
@@ -13,18 +14,16 @@ body {
 
 .header{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.header-logo{
-    font-size: 24px;
-    padding: 10px 200px;
+.head-logo{
+    height: auto;
+    width: 100px;
+    padding: 10px;
 }
 
-.links{
-    padding-right: 200px;
-}
 
 .hero{
     display: flex;
@@ -69,8 +68,9 @@ a{
 
 ul{
     list-style: none;
-    gap: 15px;
+    gap: 20px;
     display: flex;
+    text-decoration: underline;
 }
 
 .footer{
