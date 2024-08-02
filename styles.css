@@ -1,8 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vw;
     display: flex;
     flex-direction: column;
 }
@@ -64,19 +62,24 @@ body {
 
 .info img{
     border-radius: 10px;
-    width: auto;
-    height: auto;
+    width: 325px;
+    height: 272px;
 }
 
 .boxes{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .content{
     width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .sign-up,
@@ -86,9 +89,53 @@ body {
     height: auto;
 }
 
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    flex-grow: .5;
+}
+
+.quote-container h5{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 25px;
+}
+
+.quote-container p{
+    font-size: 26px;
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.cta-container{
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 1000px;
+    height: auto;
+}
+
+.cta-text{
+    text-align: center;
+}
+
 a{
     text-decoration: none;
     color: #f9faf8;
+}
+
+.action button{
+    margin-left: 375px;
+    margin-bottom: 10px;
 }
 
 ul{
@@ -100,7 +147,8 @@ ul{
 
 .footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
-    font-size: 24px;
+    align-items: center;
+    font-size: 32px;
 }
